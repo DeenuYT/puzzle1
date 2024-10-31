@@ -1,0 +1,47 @@
+.container {
+    padding: 10px;
+}
+
+.circle {
+    height: 270px;
+    width: 270px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px gray;
+    border: none;
+}
+
+.red-circle {
+    background-color: red;
+}
+
+.green-circle {
+    background-color: green;
+}
+
+@media only screen and (max-width: 1200px) {
+    .circle {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .circle {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .circle {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .circle {
+        height: 80px;
+        width: 80px;
+    }
+}
